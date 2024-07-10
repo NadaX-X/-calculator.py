@@ -1,6 +1,7 @@
-"""A simple calculator application implemented in Python, featuring basic arithmetic operations 
+"""A simple calculator application implemented in Python, featuring basic arithmetic operations
 (add, subtract, multiply, divide), as well as square, power, and square root functions.
 """
+
 def add(a, b):
     return a + b
 
@@ -45,8 +46,12 @@ def main():
                 print("Exiting the Calculator...")
                 break
 
-            num1 = float(input("Enter the first number: "))
-            num2 = float(input("Enter the second number: "))
+            if choice in ["1", "2", "3", "4", "6"]:
+                num1 = float(input("Enter the first number: "))
+                num2 = float(input("Enter the second number: "))
+            else:
+                num1 = float(input("Enter the number: "))
+                num2 = None
 
             if choice == "1":
                 result = add(num1, num2)
