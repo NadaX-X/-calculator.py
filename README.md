@@ -45,7 +45,7 @@ This program does not require any external dependencies. It can be executed usin
 
 ## Contribution
 
-If you find any issues or have suggestions for improvements, feel free to create a new issue or submit a pull request on the [GitHub repository](https://github.com/your-username/calculator).
+If you find any issues or have suggestions for improvements, feel free to submit a pull request or create an issue in the repository.
 
 ## License
 
